@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c851bb80d7f7e074088beeb5110e0dc0, type: 3}
+  m_Name: HeavyAttack
+  m_EditorClassIdentifier: 
+  id: 3
+  cooldown: 5
+  executesWhenPressed: 0
+  hitboxRadius: 3
+  baseDamage: 5
+  baseKnockback: 0.7
+  maxChargeTime: 3
+  directionMagnetismThreshold: 0
+  hitstunDuration: 1
+  combatHitstunData: {fileID: 11400000, guid: 572baf28735fed846815a88563fb98ce, type: 2}
+  movementHitstunData: {fileID: 11400000, guid: 4636e8ff4a6a8d34d87fc6f44a514c40,
+    type: 2}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64

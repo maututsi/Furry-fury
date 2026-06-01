@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bac6d094322c854d8c8e8bcc0002ee7, type: 3}
+  m_Name: SampleAbilitySet
+  m_EditorClassIdentifier: 
+  lightAttack: {fileID: 11400000, guid: f3b723081df19854f8d2ca01043482c5, type: 2}
+  heavyAttack: {fileID: 11400000, guid: ef780c8d2968eeb4fa91442c62b760e3, type: 2}
+  ability1: {fileID: 11400000, guid: f3b723081df19854f8d2ca01043482c5, type: 2}
+  ability2: {fileID: 11400000, guid: f3b723081df19854f8d2ca01043482c5, type: 2}
+  ability3: {fileID: 11400000, guid: f3b723081df19854f8d2ca01043482c5, type: 2}
+  ability4: {fileID: 11400000, guid: f3b723081df19854f8d2ca01043482c5, type: 2}
+  block: {fileID: 11400000, guid: 9af367269ce153342978efd276aae255, type: 2}
