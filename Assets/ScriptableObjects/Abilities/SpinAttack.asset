@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc396c97cd938044498797ff74f98672, type: 3}
+  m_Name: SpinAttack
+  m_EditorClassIdentifier: 
+  id: 6
+  cooldown: 8
+  executesWhenPressed: 1
+  radius: 1
+  duration: 2.5
+  effectTickInterval: 0.25
+  degreesPerSecond: 3600
+  receivedDamageMultiplier: 0.2
+  damage: 3
+  knockbackMagnitude: 5
+  combatStunData: {fileID: 11400000, guid: b450d317f9f101446b2435e0d87130e9, type: 2}
+  statChangeData: {fileID: 11400000, guid: cab59d8c60d3f2b4ab5b23b531a596e9, type: 2}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  audioSource: {fileID: 0}
+  uiiauuiiia: {fileID: 8300000, guid: ba46d31db0acb3b44a3e9517debe5842, type: 3}

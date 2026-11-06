@@ -15,7 +15,6 @@ public class CatMovement : MonoBehaviour, IMoveable, IJumper, IImpulsable
     [SerializeField] private MovementStatsMultipliers _statsMultipliers;
     [SerializeField] private MovementStatus _status;
 
-
     /*
         ==========================
                 Properties
@@ -73,23 +72,17 @@ public class CatMovement : MonoBehaviour, IMoveable, IJumper, IImpulsable
         if (!StatusComponent.CanMove || StatusComponent.IsStunned)
             return;
 
-        // Dirección deseada
         Vector3 desiredDir = new Vector3(input.x, 0, input.y).normalized;
 
-        // Velocidad actual (solo horizontal)
         Vector3 velocity = PlayerRb.velocity;
         Vector3 horizontalVel = new Vector3(velocity.x, 0, velocity.z);
 
-        // Velocidad objetivo
         Vector3 targetVelocity = desiredDir * maxSpeed;
 
-        // Diferencia entre donde estoy y donde quiero estar
         Vector3 velocityDiff = targetVelocity - horizontalVel;
 
-        // Elegir aceleración según estado
         float accel = StatusComponent.IsGrounded ? acceleration : airAcceleration;
 
-        // Aplicar fuerza hacia la velocidad objetivo
         if (input != Vector2.zero || StatusComponent.IsGrounded)
             PlayerRb.AddForce(velocityDiff * accel, ForceMode.Acceleration);
         else if (!StatusComponent.IsGrounded)
@@ -123,7 +116,9 @@ public class CatMovement : MonoBehaviour, IMoveable, IJumper, IImpulsable
             PlayerRb.AddForce(Vector3.up * jumpForce * characterMass, ForceMode.Impulse);
 
             if (!StatusComponent.IsGrounded)
+            {
                 StatusComponent.HasDoubleJumped = true;
+            }
         }
     }
 

@@ -23,7 +23,8 @@ MonoBehaviour:
   combatHitstunData: {fileID: 11400000, guid: 572baf28735fed846815a88563fb98ce, type: 2}
   movementHitstunData: {fileID: 11400000, guid: 4636e8ff4a6a8d34d87fc6f44a514c40,
     type: 2}
-  dotData: {fileID: 11400000, guid: 6d038eca54c13604897116bb65178190, type: 2}
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
+  audioSource: {fileID: 0}
+  scratchSFX: {fileID: 8300000, guid: dd25b97cc755891469e509065490a11a, type: 3}

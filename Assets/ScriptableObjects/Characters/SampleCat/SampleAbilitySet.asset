@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightAttack: {fileID: 11400000, guid: f3b723081df19854f8d2ca01043482c5, type: 2}
   heavyAttack: {fileID: 11400000, guid: ef780c8d2968eeb4fa91442c62b760e3, type: 2}
-  ability1: {fileID: 11400000, guid: f3b723081df19854f8d2ca01043482c5, type: 2}
-  ability2: {fileID: 11400000, guid: f3b723081df19854f8d2ca01043482c5, type: 2}
-  ability3: {fileID: 11400000, guid: f3b723081df19854f8d2ca01043482c5, type: 2}
-  ability4: {fileID: 11400000, guid: f3b723081df19854f8d2ca01043482c5, type: 2}
+  ability1: {fileID: 11400000, guid: 5b05f9a8b2a7735469e4e5c093cd6404, type: 2}
+  ability2: {fileID: 11400000, guid: b74f088001bcdca4db3604b4ba5b19ce, type: 2}
+  ability3: {fileID: 11400000, guid: a86cd1b060274bf46a04f60d9078df02, type: 2}
+  ability4: {fileID: 11400000, guid: b413758805af3de498a085e7f5159255, type: 2}
   block: {fileID: 11400000, guid: 9af367269ce153342978efd276aae255, type: 2}

@@ -71,7 +71,7 @@ public class CatCombat: MonoBehaviour, IKillable, IRespawnable
 
         if (LifeStackComponent.CurrentLifeStackIndex > 0)
         {
-            StartCoroutine(RespawnCoroutine(Vector3.zero, 3f));
+            StartCoroutine(RespawnCoroutine(new Vector3(-0.5f, 52.26f, 5f), 3f));
         }
     }
 
